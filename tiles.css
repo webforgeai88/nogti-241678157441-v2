@@ -38,3 +38,6 @@
 
 /* плашка без фото (в tiles.json для группы нет картинки) */
 .s-tile--noimg .s-tile__body { padding: 20px 52px 20px 18px; min-height: 84px; align-content: center; }
+
+/* Однотон: слово «Челябинске» в заголовке первого блока не переносим по слогам */
+.s-hero h1 { hyphens: manual; -webkit-hyphens: manual; }
